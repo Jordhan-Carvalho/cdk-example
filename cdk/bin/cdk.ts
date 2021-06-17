@@ -5,5 +5,4 @@ import { BgcDefaultStack } from '../lib/bgc-default';
 
 const app = new cdk.App();
 
-new BgcDefaultStack(app, 'bgc-default', {
-});
+new BgcDefaultStack(app, 'bgc-default');
